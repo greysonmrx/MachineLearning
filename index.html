@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title>Machine Learning</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/synaptic/1.1.4/synaptic.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+		<script type="text/javascript" src="./Genetic.js"></script>
+		<script type="text/javascript" src="./GameArea.js"></script>
+		<script type="text/javascript" src="./Component.js"></script>
+		<script type="text/javascript" src="./game.js"></script>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<div id="myfilter">
+		</div>
+		<div id="game-status">
+			<h1>Geração: <span id="gen">0</span></h1>
+			<h1>Vivos: <span id="live">0</span></h1>
+			<h1>Score: <span id="score">0</span></h1>
+			<h1>Record: <span id="record">0</span></h1>
+		</div>
+		<div id="mystartbutton">
+			<a onclick="startGame()">Start</a>
+		</div>
+		<div id="canvascontainer"></div>
+		<div class="button-x">
+			<span id="velocidade"></span>
+		</div>
+</script>
+	</body>
+</html>
