@@ -20,7 +20,6 @@ var neuronios = [];
 function restartGame() {
     document.getElementById("canvascontainer").innerHTML = "";
     document.getElementById("myfilter").style.display = "none";
-    document.getElementById("myrestartbutton").style.display = "none";
     myGameArea.stop();
     myGameArea.clear();
     myGameArea = {};
